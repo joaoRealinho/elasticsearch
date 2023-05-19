@@ -6,8 +6,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ElasticSearchSpringApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
+
+    @Test
+    void test1() {
+
+        System.out.println("test1");
+    }
 }
